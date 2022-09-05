@@ -96,7 +96,7 @@ class EventController extends Controller
     }
 
     public function edit($id){
-        $user - auth()->user();
+        $user = auth()->user();
 
         $event = Event::findOrFail($id);
 
